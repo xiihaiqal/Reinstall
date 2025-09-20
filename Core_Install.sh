@@ -332,7 +332,7 @@ elif [[ "$Relese" == 'CentOS' ]]; then
 fi
 [ -n "$tmpWORD" ] && dependence openssl
 [[ -n "$tmpWORD" ]] && myPASSWORD="$(openssl passwd -1 "$tmpWORD")";
-[[ -z "$myPASSWORD" ]] && myPASSWORD='$1$UIl1uSg0$tAW9qjOqoCto0CIUgUwHT1';
+[[ -z "$myPASSWORD" ]] && myPASSWORD='$1$auAcGpzu$Tr8/B3bntA5y8jekZRdfJ/';
 
 tempDisk=`getDisk`; [ -n "$tempDisk" ] && IncDisk="$tempDisk"
 
@@ -387,6 +387,7 @@ if [[ -n "$tmpDIST" ]]; then
         [[ "$isDigital" == '20.04' ]] && DIST='focal';
         [[ "$isDigital" == '22.04' ]] && DIST='jammy';
         [[ "$isDigital" == '24.04' ]] && DIST='noble';
+		[[ "$isDigital" == '25.04' ]] && DIST='plucky';
       }
     }
     LinuxMirror=$(selectMirror "$Relese" "$DIST" "$VER" "$tmpMirror")
