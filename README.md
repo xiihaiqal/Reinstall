@@ -106,12 +106,14 @@ Copyright © KingKongVPN™ 2025. All rights reserved.
 
 This script is provided as-is without any warranties. Please ensure you have backups before proceeding with system reinstallation. The authors are not responsible for any data loss or issues arising from the use of this script.
 
-## Contributing
+## Credits
 
-Feel free to submit issues and enhancement requests!
+This project is based on the excellent work from:
+- **[Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify)** by MeowLove - Original inspiration and core installation framework
+
 
 ## Star History
 
 If you find this project helpful, please consider giving it a star on GitHub!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/yourrepository&type=Date)](https://star-history.com/#yourusername/yourrepository&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=xiihaiqal/Reinstall&type=Date)](https://star-history.com/#xiihaiqal/Reinstall&Date)
