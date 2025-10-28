@@ -89,6 +89,7 @@ function NetMode() {
 
   if [ "$isAuto" == '0' ]; then
     read -r -p "Using DHCP to configure network automatically? [Y/n]:" input
+	input=${input:-Y}
     case $input in
       [yY][eE][sS]|[yY]) NETSTR='' ;;
       [nN][oO]|[nN]) isAuto='1' ;;
